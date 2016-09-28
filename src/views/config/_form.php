@@ -1,6 +1,6 @@
 <?php
 use kartik\widgets\Select2;
-use navatech\setting\models\Setting;
+use phamxuanloc\setting\models\Setting;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 

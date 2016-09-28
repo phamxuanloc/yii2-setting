@@ -1,11 +1,11 @@
 <?php
-namespace navatech\setting\controllers;
+namespace phamxuanloc\setting\controllers;
 
-use navatech\language\Translate;
-use navatech\role\filters\RoleFilter;
-use navatech\setting\actions\DefaultAction;
-use navatech\setting\models\Setting;
-use navatech\setting\Module;
+use phamxuanloc\language\Translate;
+use phamxuanloc\role\filters\RoleFilter;
+use phamxuanloc\setting\actions\DefaultAction;
+use phamxuanloc\setting\models\Setting;
+use phamxuanloc\setting\Module;
 use Yii;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;

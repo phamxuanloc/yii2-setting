@@ -1,7 +1,7 @@
 <?php
 use kartik\tabs\TabsX;
-use navatech\setting\assets\AwesomeBootstrapCheckboxAsset;
-use navatech\setting\models\Setting;
+use phamxuanloc\setting\assets\AwesomeBootstrapCheckboxAsset;
+use phamxuanloc\setting\models\Setting;
 use yii\bootstrap\Alert;
 use yii\bootstrap\Html;
 use yii\web\View;

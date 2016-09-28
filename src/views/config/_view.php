@@ -8,7 +8,7 @@
  * @time    4:02 PM
  * @var Setting $model
  */
-use navatech\setting\models\Setting;
+use phamxuanloc\setting\models\Setting;
 
 ?>
 

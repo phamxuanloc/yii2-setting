@@ -1,14 +1,14 @@
 <?php
 
-namespace navatech\setting\models;
+namespace phamxuanloc\setting\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use navatech\setting\models\Setting;
+use phamxuanloc\setting\models\Setting;
 
 /**
- * SettingSearch represents the model behind the search form about `\navatech\setting\models\Setting`.
+ * SettingSearch represents the model behind the search form about `\phamxuanloc\setting\models\Setting`.
  */
 class SettingSearch extends Setting
 {

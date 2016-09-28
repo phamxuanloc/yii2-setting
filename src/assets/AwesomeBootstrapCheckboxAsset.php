@@ -6,7 +6,7 @@
  * @date    5/10/2016
  * @time    11:04 AM
  */
-namespace navatech\setting\assets;
+namespace phamxuanloc\setting\assets;
 
 use yii\web\AssetBundle;
 
@@ -17,7 +17,7 @@ class AwesomeBootstrapCheckboxAsset extends AssetBundle {
 	public $depends    = [
 		'yii\web\YiiAsset',
 		'yii\bootstrap\BootstrapAsset',
-		'navatech\setting\assets\FontAwesomeAsset',
+		'phamxuanloc\setting\assets\FontAwesomeAsset',
 	];
 
 	public $css        = [

@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require navatech/yii2-setting "@dev"
+php composer.phar require phamxuanloc/yii2-setting "@dev"
 ```
 
 or add
 
 ```
-"navatech/yii2-setting": "*"
+"phamxuanloc/yii2-setting": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -32,14 +32,14 @@ Once the extension is installed, simply use it in your code by  :
 Migration run
 
 ```php
-yii migrate --migrationPath=@navatech/setting/migrations
+yii migrate --migrationPath=@phamxuanloc/setting/migrations
 ```
 
 ### Config /common/config/main.php to use Yii::$app->setting
 ```php
     'components' => [
         'setting' => [
-            'class' => 'navatech\setting\Setting',
+            'class' => 'phamxuanloc\setting\Setting',
         ],
     ],
 ```
@@ -49,14 +49,14 @@ yii migrate --migrationPath=@navatech/setting/migrations
 ```php
     'modules'    => [
    		'setting'  => [
-            'class'               => 'navatech\setting\Module',
-            'controllerNamespace' => 'navatech\setting\controllers',
+            'class'               => 'phamxuanloc\setting\Module',
+            'controllerNamespace' => 'phamxuanloc\setting\controllers',
    		],
    		'gridview' => [
             'class' => '\kartik\grid\Module',
    		],
    		'roxymce'  => [
-            'class' => '\navatech\roxymce\Module',
+            'class' => '\phamxuanloc\roxymce\Module',
    		],
     ],
 ```

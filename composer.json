@@ -1,5 +1,5 @@
 {
-	"name" : "navatech/yii2-setting",
+	"name" : "phamxuanloc/yii2-setting",
 	"description" : "Yii2 Setting for other application",
 	"type" : "yii2-extension",
 	"keywords" : [
@@ -20,17 +20,21 @@
 		{
 			"name" : "Le Phuong",
 			"email" : "phuong17889@gmail.com"
+		},
+		{
+			"name" : "Pham loc",
+			"email" : "loc.xuanphama1t1@gmail.com"
 		}
 	],
-	"homepage" : "https://navatech.vn",
+	"homepage" : "https://diclearn.com",
 	"support" : {
-		"source" : "https://github.com/navatech/yii2-setting"
+		"source" : "https://github.com/phamxuanloc/yii2-setting"
 	},
 	"require" : {
 		"php" : ">=5.6.0",
 		"bower-asset/awesome-bootstrap-checkbox" : "^0.3.7",
-		"navatech/yii2-navatech-base" : "@dev",
-		"navatech/yii2-roxymce" : "@dev",
+		"phamxuanloc/yii2-phamxuanloc-base" : "@dev",
+		"phamxuanloc/yii2-roxymce" : "@dev",
 		"kartik-v/yii2-password" : "@dev",
 		"kartik-v/yii2-widgets" : "@dev",
 		"kartik-v/yii2-tabs-x" : "@dev",
@@ -39,10 +43,10 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"navatech\\setting\\" : "src/"
+			"phamxuanloc\\setting\\" : "src/"
 		}
 	},
 	"extra" : {
-		"bootstrap" : "navatech\\setting\\Bootstrap"
+		"bootstrap" : "phamxuanloc\\setting\\Bootstrap"
 	}
 }

@@ -1,7 +1,7 @@
 <?php
-namespace navatech\setting;
+namespace phamxuanloc\setting;
 
-use navatech\setting\models\Setting as SettingModel;
+use phamxuanloc\setting\models\Setting as SettingModel;
 use Yii;
 use yii\base\Component;
 use yii\base\InvalidConfigException;

@@ -1,5 +1,5 @@
 <?php
-namespace navatech\setting\models;
+namespace phamxuanloc\setting\models;
 
 use kartik\password\PasswordInput;
 use kartik\widgets\ColorInput;
@@ -10,9 +10,9 @@ use kartik\widgets\RangeInput;
 use kartik\widgets\Select2;
 use kartik\widgets\SwitchInput;
 use kartik\widgets\TimePicker;
-use navatech\language\Translate;
-use navatech\roxymce\widgets\RoxyMceWidget;
-use navatech\setting\Module;
+use phamxuanloc\language\Translate;
+use phamxuanloc\roxymce\widgets\RoxyMceWidget;
+use phamxuanloc\setting\Module;
 use Yii;
 use yii\base\ErrorException;
 use yii\bootstrap\Html;
@@ -208,7 +208,7 @@ class Setting extends ActiveRecord {
 			try {
 				return $this->name;
 			} catch (ErrorException $e) {
-				throw new ErrorException(Yii::t('setting', 'You should run migrations by command {0}', ['"php yii migrate --migrationPath=@navatech/setting/migrations"']));
+				throw new ErrorException(Yii::t('setting', 'You should run migrations by command {0}', ['"php yii migrate --migrationPath=@phamxuanloc/setting/migrations"']));
 			}
 		}
 	}

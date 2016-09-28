@@ -1,17 +1,17 @@
 <?php
-namespace navatech\setting;
+namespace phamxuanloc\setting;
 
 use Yii;
 
-class Module extends \navatech\base\Module {
+class Module extends \phamxuanloc\base\Module {
 
-	public    $controllerNamespace = 'navatech\setting\controllers';
+	public    $controllerNamespace = 'phamxuanloc\setting\controllers';
 
 	protected $_isBackend;
 
 	public function init() {
 		parent::init();
-		$this->setViewPath('@navatech/setting/views');
+		$this->setViewPath('@phamxuanloc/setting/views');
 	}
 
 	/**

@@ -8,7 +8,7 @@
  * @time    12:09 CH
  * @version 1.0.0
  */
-namespace navatech\setting\assets;
+namespace phamxuanloc\setting\assets;
 
 use yii\web\AssetBundle;
 
